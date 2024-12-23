@@ -14,6 +14,8 @@ Key Features:
 Dependencies:
 - colorConfig.py (for color and style configurations)
 - sys, datetime, pytz (for system and date-time operations)
+
+Author: Levi Gagne
 """
 
 import sys
