@@ -68,7 +68,7 @@ This repository is a showcase of my technical skills and problem-solving capabil
 Feel free to reach out if you'd like to learn more about my work or discuss opportunities:  
 
 - **Name**: Levi Gagne  
-- **Email**: [levi.gagne@example.com](mailto:levi.gagne@example.com)  
+- **Email**: [levigagne0@gmail.com](mailto:levigagne0@gmail.com)  
 - **Location**: Austin, TX  
 - **LinkedIn**: [linkedin.com/in/levi-gagne](https://www.linkedin.com/in/levi-gagne/)  
 - **GitHub**: [github.com/Levi-Gagne](https://github.com/Levi-Gagne/)  
