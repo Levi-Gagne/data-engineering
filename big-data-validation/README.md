@@ -1,6 +1,8 @@
 # Big Data Validation Tool
 
-This repository contains three primary Python scripts that serve specific roles in data validation workflows. However, some dependencies and associated configuration files are missing, which are necessary for full functionality.
+This application is designed to efficiently validate two sets of dataframes simultaneously, making it ideal for large-scale validation tasks. It was specifically built to handle the validation of 96 reports daily, providing specialized reporting to highlight discrepancies and areas requiring attention. The tool is user-friendly and easily adaptable for user input, making it versatile for different data sources and workflows.
+
+This repository contains three primary Python scripts that serve specific roles in data validation workflows. While not all files are currently assembled, this repository showcases key components of the application, with ongoing work to integrate the remaining elements and configurations.
 
 ---
 
