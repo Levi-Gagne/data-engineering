@@ -1,5 +1,64 @@
 #!/usr/bin/env python
 # coding: utf-8
+"""
+Fleet Out-of-Stock KPIs Calculation Script
+===========================================
+
+Purpose:
+--------
+This Python script calculates various Key Performance Indicators (KPIs) for fleet out-of-stock data using PySpark.
+The calculations, traditionally performed using SQL, have been implemented in PySpark for enhanced scalability
+and performance with large datasets.
+
+Key Features:
+-------------
+1. **Dynamic Spark Session Initialization**:
+   - Configures Spark dynamically with optimal parameters for memory, cores, and parallelism.
+   - Enables Hive support for querying data stored in Hive tables.
+
+2. **Date Variable Initialization**:
+   - Establishes Detroit timezone as a reference for all date calculations.
+   - Generates current date, time, and related variables for filtering and timestamping data.
+
+3. **Data Loading and Transformation**:
+   - Loads lookup and fleet out-of-stock staging tables from Hive.
+   - Constructs temporary views and performs SQL-style transformations on PySpark DataFrames.
+
+4. **KPI Calculations**:
+   - **MTD (Month-to-Date) Sales**: Calculates cumulative sales within the current month.
+   - **YTD (Year-to-Date) Sales**: Summarizes sales from the beginning of the year up to the current date.
+   - **Prior Year Comparisons**: Compares current YTD sales with those of the same period in the previous year.
+   - **Variance and Percentage Change**: Computes differences and percentage changes between current and prior YTD sales.
+
+5. **Filling Missing Dates**:
+   - Handles date gaps in the fleet out-of-stock data by filling missing values with appropriate defaults using window functions.
+
+6. **Dynamic Aggregation**:
+   - Aggregates monthly and daily sales data with support for varying date ranges.
+   - Joins fleet data with lookup tables for enriched insights.
+
+7. **Performance Optimizations**:
+   - Uses Spark SQL and DataFrame APIs with caching for efficient computation.
+   - Configures Kryo serialization and optimizes shuffle partitions.
+
+Inputs:
+-------
+1. **Hive Tables**:
+   - `marketing360_public.fs_vsna_dim_selling_day_report_lkup`: Lookup data with date-related mappings.
+   - `pyspark_pitstop.fleet_oos_stg`: Fleet out-of-stock staging data.
+
+2. **Date and Environment Variables**:
+   - Current date string is dynamically initialized based on the Detroit timezone.
+   - Accepts environment variables (`env`) for determining runtime configurations.
+
+Outputs:
+--------
+- The script processes and displays transformed DataFrames with calculated KPIs for verification and further usage.
+
+Author:
+-------
+- Levi Gagne
+"""
 
 import sys, datetime, pytz, calendar
 from datetime import timedelta
