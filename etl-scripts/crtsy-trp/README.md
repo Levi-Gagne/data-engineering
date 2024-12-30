@@ -28,4 +28,4 @@ This directory contains ETL scripts and related resources for processing Courtes
 
 ## Authors
 
-- Data Engineering Team
+- Levi Gagne
