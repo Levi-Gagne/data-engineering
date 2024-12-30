@@ -1,0 +1,31 @@
+DROP TABLE sales_mktg.cds_ret_crtsy_trp_pgm;
+
+CREATE EXTERNAL TABLE sales_mktg.cds_ret_crtsy_trp_pgm
+(
+	Veh_Id_Nbr VARCHAR(20),
+	File_Dt DATE,
+	Out_Svc_Dt DATE,
+	Src_Sys_Id VARCHAR(20),
+	In_Svc_Dt DATE,
+	Biz_Assoc_Id BIGINT,
+	Day_In_Svc_Cnt INT,
+	Out_Svc_Mil_Cnt INT,
+	Out_Svc_Type_Cd VARCHAR(20),
+	Sell_Src_Desc VARCHAR(20),
+	Sell_Src_Cd INT,
+	Veh_Prod_Rpt_Model_Cd VARCHAR(20),
+	Model_Yr INT,
+	Loan_Great_Than_60_Day_Cd VARCHAR(20),
+	Src_Sys_Uniq_Prim_Key_Val VARCHAR(500),
+	Src_Sys_Uniq_Prim_Key_Col_Val VARCHAR(500),
+	Meas_Cnt INT,
+	Dw_Anom_Flg CHAR(1),
+	Dw_Mod_Ts TIMESTAMP,
+	Dw_Job_Id VARCHAR(50),
+	Src_Sys_Iud_Cd CHAR(1)
+)
+
+STORED AS PARQUET
+LOCATION "/sync/tst_42124_edw_b/EDW/SALES_MKTG/RZ/CDS_RET_CRTSY_TRP_PGM/Data"
+
+TBLPROPERTIES('serialization.null.format'='');

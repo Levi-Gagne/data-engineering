@@ -1,0 +1,17 @@
+CREATE SCHEMA IF NOT EXISTS dl_edge_base_dcfpa_171749_base_dcfpa_avista;
+USE dev_dl_edge_base_dcfpa_171749_base_dcfpa_avista;
+DROP TABLE IF EXISTS dl_edge_base_dcfpa_171749_base_dcfpa_avista.ret_crtsy_trp_pgm_stg;
+CREATE EXTERNAL TABLE dl_edge_base_dcfpa_171749_base_dcfpa_avista.ret_crtsy_trp_pgm_stg
+(
+  VIN VARCHAR(20),
+  outDate DATE,
+  outMile INT,
+  todayDate DATE,
+  outType VARCHAR(20),
+  daysInService INT,
+  loanGreaterThan60 VARCHAR(10)
+)
+STORED AS PARQUET
+LOCATION "/sync/tst_42124_edw_dl_b/DL/EDGE_BASE/DCFPA-171749/DCFPA-AVISTA/RET_CRTSY_TRP_PGM_STG/Data"
+
+TBLPROPERTIES('serialization.null.format'='');
