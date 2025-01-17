@@ -1,0 +1,31 @@
+{
+    "model": "Linear Regression",
+    "frequency": "Monthly",
+    "datasets": [
+        {
+            "file_name": "C-OIL_MON$AVG-BARL_1986-2024.csv",
+            "path": "/Users/levigagne/Desktop/JupyterLab/data/C-OIL_MON$AVG-BARL_1986-2024.csv",
+            "date_column": "observation_date"
+        },
+        {
+            "file_name": "FEDFUNDSRATE_MON_1960-2023.csv",
+            "path": "/Users/levigagne/Desktop/JupyterLab/data/FEDFUNDSRATE_MON_1960-2023.csv",
+            "date_column": "observation_date"
+        },
+        {
+            "file_name": "POP_MON_1959-2024.csv",
+            "path": "/Users/levigagne/Desktop/JupyterLab/data/POP_MON_1959-2024.csv",
+            "date_column": "observation_date"
+        },
+        {
+            "file_name": "TOTALVEHICLESALES_MON_1976-2024.csv",
+            "path": "/Users/levigagne/Desktop/JupyterLab/data/TOTALVEHICLESALES_MON_1976-2024.csv",
+            "date_column": "observation_date"
+        },
+        {
+            "file_name": "UNRATE_MON_1948-2024.csv",
+            "path": "/Users/levigagne/Desktop/JupyterLab/data/UNRATE_MON_1948-2024.csv",
+            "date_column": "observation_date"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "model": "Linear Regression",
+    "frequency": "Monthly",
+    "start_date": "1990-01-01",
+    "end_date": "2020-12-01",
+    "y": {
+        "variable": "POPTHM",
+        "file_name": "POP_MON_1959-2024.csv",
+        "file_path": "/Users/levigagne/Desktop/JupyterLab/data/POP_MON_1959-2024.csv",
+        "date_column": "observation_date"
+    },
+    "x": [
+        {
+            "variable": "DCOILWTICO",
+            "file_name": "C-OIL_MON$AVG-BARL_1986-2024.csv",
+            "file_path": "/Users/levigagne/Desktop/JupyterLab/data/C-OIL_MON$AVG-BARL_1986-2024.csv",
+            "date_column": "observation_date"
+        },
+        {
+            "variable": "IRSTFR01USM156N",
+            "file_name": "FEDFUNDSRATE_MON_1960-2023.csv",
+            "file_path": "/Users/levigagne/Desktop/JupyterLab/data/FEDFUNDSRATE_MON_1960-2023.csv",
+            "date_column": "observation_date"
+        },
+        {
+            "variable": "TOTALSA",
+            "file_name": "TOTALVEHICLESALES_MON_1976-2024.csv",
+            "file_path": "/Users/levigagne/Desktop/JupyterLab/data/TOTALVEHICLESALES_MON_1976-2024.csv",
+            "date_column": "observation_date"
+        },
+        {
+            "variable": "UNRATE",
+            "file_name": "UNRATE_MON_1948-2024.csv",
+            "file_path": "/Users/levigagne/Desktop/JupyterLab/data/UNRATE_MON_1948-2024.csv",
+            "date_column": "observation_date"
+        }
+    ]
+}

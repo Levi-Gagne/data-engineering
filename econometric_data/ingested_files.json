@@ -1,0 +1,37 @@
+{
+    "C-OIL_MON$AVG-BARL_1986-2024.csv": {
+        "path": "/Users/levigagne/Desktop/JupyterLab/data/C-OIL_MON$AVG-BARL_1986-2024.csv",
+        "headers": [
+            "observation_date",
+            "DCOILWTICO"
+        ]
+    },
+    "FEDFUNDSRATE_MON_1960-2023.csv": {
+        "path": "/Users/levigagne/Desktop/JupyterLab/data/FEDFUNDSRATE_MON_1960-2023.csv",
+        "headers": [
+            "observation_date",
+            "IRSTFR01USM156N"
+        ]
+    },
+    "POP_MON_1959-2024.csv": {
+        "path": "/Users/levigagne/Desktop/JupyterLab/data/POP_MON_1959-2024.csv",
+        "headers": [
+            "observation_date",
+            "POPTHM"
+        ]
+    },
+    "TOTALVEHICLESALES_MON_1976-2024.csv": {
+        "path": "/Users/levigagne/Desktop/JupyterLab/data/TOTALVEHICLESALES_MON_1976-2024.csv",
+        "headers": [
+            "observation_date",
+            "TOTALSA"
+        ]
+    },
+    "UNRATE_MON_1948-2024.csv": {
+        "path": "/Users/levigagne/Desktop/JupyterLab/data/UNRATE_MON_1948-2024.csv",
+        "headers": [
+            "observation_date",
+            "UNRATE"
+        ]
+    }
+}
