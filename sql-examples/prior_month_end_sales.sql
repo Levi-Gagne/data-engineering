@@ -1,8 +1,5 @@
 -- Prior-Month Month-End Sales
--- This query performs a similar calculation to the first but may be intended for different reporting criteria
--- or a different subset of data where the end of the month's sales are crucial.
 
--- The SQL is identical to the first one provided. In practice, you would modify this query or add specific
 -- filters/conditions to tailor it to the "Month-End" requirements.
 
 WITH requested_date_constant AS (
