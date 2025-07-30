@@ -1,0 +1,438 @@
+A
+access control list (ACL)
+
+A list of permissions attached to the workspace, cluster, job, table, or experiment. An ACL specifies which users or system processes are granted access to the objects, and what operations are allowed on the assets. Each entry in a typical ACL specifies a subject and an operation. See Access control lists.
+
+access mode
+
+A security feature that determines who can use a compute resource and the data they can access while using the compute resource. Every compute resource in Azure Databricks has an access mode. See Access modes.
+
+ACID transactions
+
+Database transactions that are processed reliably. ACID stands for atomicity, consistency, isolation, durability. See Best practices for reliability.
+
+artificial intelligence (AI)
+
+The capability of a computer to imitate intelligent human behavior. See AI and machine learning on Databricks.
+
+AI agent
+
+An application with complex reasoning capabilities that allows it to create its own plan and execute the task according to the tools at its disposal. See What are compound AI systems and AI agents?.
+
+AI functions
+
+The built-in SQL functions that allow you to apply AI on your data directly from SQL in Azure Databricks. See AI Functions on Azure Databricks.
+
+AI playground
+
+An Azure Databricks feature where users can interact with, test, and compare generative AI models served in your Azure Databricks workspace. See Chat with LLMs and prototype GenAI apps using AI Playground.
+
+anomaly detection
+
+Techniques and tools used to identify unusual patterns that do not conform to expected behavior in datasets. Azure Databricks facilitates anomaly detection through its machine learning and data processing capabilities.
+
+Apache Spark
+
+An open-source, distributed computing system used for big data workloads. See Apache Spark on Azure Databricks.
+
+artificial neural network (ANN)
+
+A computing system patterned after the operation of neurons in the human brain.
+
+asset
+
+An entity in an Azure Databricks workspace (for example, an object or a file).
+
+audit log
+
+A record of user activities and actions within the Azure Databricks environment, crucial for security, compliance, and operational monitoring. See Diagnostic log reference.
+
+Auto Loader
+
+A data ingestion feature that incrementally and efficiently processes new data files as they arrive in cloud storage without any additional setup. See What is Auto Loader?.
+
+AutoML
+
+An Azure Databricks feature that simplifies the process of applying machine learning to your datasets by automatically finding the best algorithm and hyperparameter configuration for you. See What is AutoML?.
+
+automated data lineage
+
+The process of automatically tracking and visualizing the flow of data from its origin through various transformations to its final form, essential for debugging, compliance, and understanding data dependencies. Azure Databricks facilitates this through integrations with data lineage tools.
+
+autoscaling, horizontal
+
+Adding or removing executors based on the number of tasks waiting to be scheduled. This happens dynamically during a single update.
+
+autoscaling, vertical
+
+Increasing or decreasing the size of a machine (driver or executor) based on memory pressure (or lack thereof). This happens only at the start of a new update.
+
+Azure Databricks
+
+A version of Databricks that is optimized for the Microsoft Azure cloud platform.
+
+B
+batch processing
+
+A data processing method that allows you to define explicit instructions to process a fixed amount of static, non-changing data as a single operation. Azure Databricks uses Spark SQL or DataFrames. See Streaming and incremental ingestion.
+
+bias detection and mitigation
+
+The process of identifying and addressing biases in data and machine learning models to ensure fairness and accuracy. Databricks offers tools and integrations to help detect and mitigate bias. See Monitor fairness and bias for classification models.
+
+business intelligence (BI)
+
+The strategies and technologies used by enterprises for the data analysis and management of business information.
+
+C
+Catalog Explorer
+
+An Azure Databricks feature that provides a UI to explore and manage data, schemas (databases), tables, models, functions, and other AI assets. You can use it to find data objects and owners, understand data relationships across tables, and manage permissions and sharing. See What is Catalog Explorer?.
+
+CICD or CI/CD
+
+The combined practices of continuous integration (CI) and continuous delivery (CD). See What is CI/CD on Azure Databricks?.
+
+clean data
+
+Data that has gone through a data cleansing process, which is the process of detecting and correcting (or removing) corrupt or inaccurate records from a record set, table, or database and refers to identifying incomplete, incorrect, inaccurate, or irrelevant parts of the data and then replacing, modifying, or deleting the dirty or coarse data.
+
+Clean Rooms
+
+An Azure Databricks feature that uses Delta Sharing and serverless compute to provide a secure and privacy-protecting environment where multiple parties can share sensitive enterprise data and collaborate without direct access to each other’s data. With Clean Rooms, users from other Databricks accounts can collaborate to generate insights about shared projects, such as advertising campaigns, investment decisions, or research and development, without sharing access to sensitive underlying data. See What is Azure Databricks Clean Rooms?.
+
+cloud platform provider
+
+A company that provides a cloud computing platform. For example, Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP).
+
+cluster
+
+A non-serverless compute resource used in notebooks, jobs, and Delta Live Tables. The term compute has replaced cluster throughout the Azure Databricks UI, but is still used in the Clusters API and in metadata.
+
+compound AI system
+
+Systems that tackle AI tasks by combining multiple interacting components. In contrast, an AI model is a statistical model (for example, a Transformer that predicts the next token in text). See What are compound AI systems and AI agents?.
+
+compute
+
+Refers to compute resources, which are infrastructure elements, whether hardware or software, that enable problem-solving and solution creation through receiving, analyzing, and storing data. Compute.
+
+continuous pipeline
+
+A pipeline that updates all tables continuously, as new data arrives in the input without stopping. See Triggered vs. continuous pipeline mode.
+
+D
+directed acyclic graph (DAG)
+
+A method of representing the dependencies between tasks in a workflow or pipeline. In a DAG processing model, tasks are represented as nodes in a directed acyclic graph, where the edges represent the dependencies between tasks.
+
+data catalog
+
+A metadata management tool to manage data sources, providing information about the data’s structure, location, and usage. Azure Databricks integrates with external data catalogs for enhanced metadata management.
+
+data governance
+
+The practice of managing the availability, integrity, security, and usability of data, involving policies, procedures, and technologies to ensure data quality and compliance.
+
+data ingestion
+
+The process of importing, transferring, loading, and processing data from various sources into Azure Databricks for storage, analysis, and processing.
+
+data lake
+
+A large storage repository that holds a vast amount of raw data in its native format until it is needed.
+
+Data Lakehouse
+
+A data management system that combines the benefits of data lakes and data warehouses. A data lakehouse provides scalable storage and processing capabilities for modern organizations that want to avoid isolated systems for processing different workloads, like machine learning (ML) and business intelligence (BI). A data lakehouse can help establish a single source of truth, eliminate redundant costs, and ensure data freshness. See What is a data lakehouse?.
+
+data pipeline
+
+A series of stages in which data is generated, collected, processed, and moved to a destination. Databricks facilitates the creation and management of complex data pipelines for batch and real-time data processing.
+
+data privacy
+
+The practice of protecting personal data from unauthorized access, use, disclosure, or theft. Azure Databricks emphasizes robust data privacy and security features, including end-to-end encryption, role-based access control, and compliance with major data protection regulations, to safeguard sensitive information and ensure data governance.
+
+data visualization
+
+A data management approach that allows an application to retrieve and manipulate data without requiring technical details about the data, such as how it is formatted or where it is physically located. Azure Databricks can serve as part of a data virtualization layer by providing seamless access to and analysis of data across disparate sources.
+
+data warehousing
+
+Refers to collecting and storing data from multiple sources so it can be quickly accessed for business insights and reporting. The lakehouse architecture and Databricks SQL bring cloud data warehousing capabilities to your data lakes. See What is data warehousing on Azure Databricks?.
+
+Databricks
+
+A unified, open analytics platform for building, deploying, sharing, and maintaining enterprise-grade data, analytics, and AI solutions at scale. The Databricks Data Intelligence Platform integrates with cloud storage and security in your cloud account, and manages and deploys cloud infrastructure on your behalf. See What is Azure Databricks?.
+
+Databricks AI/BI
+
+A business intelligence product to provide understanding of your data’s semantics, enabling self-service data analysis. AI/BI is built on a compound AI system that draws insights from the full lifecycle of your data across the Databricks platform, including ETL pipelines, lineage, and other queries. See What is Databricks AI/BI?.
+
+Databricks Asset Bundles (DABs)
+
+A tool to facilitate the adoption of software engineering best practices, including source control, code review, testing, and continuous integration and delivery (CI/CD), for your data and AI projects. Bundles make it possible to describe Azure Databricks resources such as jobs, pipelines, and notebooks as source files. See What are Databricks Asset Bundles?.
+
+Databricks Assistant
+
+An AI-based pair-programmer and a support agent that makes you more efficient as you create notebooks, queries, dashboards, and files. It can help you rapidly answer questions by generating, optimizing, completing, explaining, and fixing code and queries. See What is Databricks Assistant?.
+
+Databricks CLI
+
+A command-line interface for Azure Databricks that enables users to manage and automate Databricks workspaces and deploy jobs, notebooks, and libraries. See What is the Databricks CLI?.
+
+Databricks Connect
+
+A client library that allows developers to connect their favorite IDEs, notebooks, and other tools with Azure Databricks compute and execute Spark code remotely. See What is Databricks Connect?.
+
+Databricks Container Services
+
+An Azure Databricks feature that lets you specify a Docker image when you create compute. See Customize containers with Databricks Container Service.
+
+Databricks Marketplace
+
+An open forum for exchanging data products. Providers must have an Azure Databricks account, but recipients can be anybody. Marketplace assets include datasets, Azure Databricks notebooks, Azure Databricks Solution Accelerators, and machine learning (AI) models. Datasets are typically made available as catalogs of tabular data, although non-tabular data, in the form of Azure Databricks volumes, is also supported. See What is Databricks Marketplace?.
+
+Databricks Runtime
+
+A runtime optimized for big data analytics. Databricks also offers Databricks Runtime for Machine Learning which is optimized for machine learning workloads. See Databricks Runtime and Databricks Runtime release notes versions and compatibility.
+
+Databricks SQL (DBSQL)
+
+The collection of services that bring data warehousing capabilities and performance to your existing data lakes. Azure Databricks SQL supports open formats and standard ANSI SQL. An in-platform SQL editor and dashboarding tools allow team members to collaborate with other Azure Databricks users directly in the workspace. See What is data warehousing on Azure Databricks?.
+
+DatabricksIQ
+
+The data intelligence engine powering the Databricks Platform. It is a compound AI system that combines the use of AI models, retrieval, ranking, and personalization systems to understand the semantics of your organization’s data and usage patterns. See DatabricksIQ-powered features.
+
+DBUs
+
+A Databricks Unit (DBU) is a normalized unit of processing power on the Databricks Lakehouse Platform used for measurement and pricing purposes. The number of DBUs a workload consumes is driven by processing metrics, which may include the compute resources used and the amount of data processed. See Azure Databricks concepts.
+
+DataFrame
+
+A data structure that organizes data into a two-dimensional table of rows and columns, much like a spreadsheet. DataFrames are one of the most common data structures used in modern data analytics because they are a flexible and intuitive way of storing and working with data. See Tutorial: Load and transform data using Apache Spark DataFrames.
+
+dataset
+
+A structured collection of data organized and stored together for analysis or processing. The data in a dataset is typically related in some way and taken from a single source or intended for a single project.
+
+Delta Lake
+
+An open-source storage layer that brings reliability to data lakes. Delta Lake provides ACID transactions, scalable metadata handling, and unifies streaming and batch data processing. See What is Delta Lake?.
+
+Delta Live Tables (DLT)
+
+A declarative framework for building reliable, maintainable, and testable data processing pipelines. You define the transformations to perform on your data and Delta Live Tables manages task orchestration, cluster management, monitoring, data quality, and error handling. See What is Delta Live Tables?.
+
+Delta Live Tables datasets
+
+The streaming tables, materialized views, and views maintained as the results of declarative queries.
+
+Delta Sharing
+
+Enables you to share data and AI assets in Azure Databricks with users outside your organization, whether those users use Azure Databricks or not. Also available as an open-source project for sharing tabular data, using it in Azure Databricks adds the ability to share non-tabular, unstructured data (volumes), AI models, views, filtered data, and notebooks. See What is Delta Sharing?.
+
+Delta tables
+
+The default data table format in Azure Databricks and is a feature of the Delta Lake open source data framework. Delta tables are typically used for data lakes, where data is ingested via streaming or in large batches. See What are tables and views?.
+
+E
+ETL (Extract, Transform, Load)
+
+A modern approach to data integration that extracts data from sources, loads it into the target system, and then transforms it within the target system. See Run your first ETL workload on Azure Databricks.
+
+F
+Feature Store
+
+A central repository for storing, managing, and serving features for machine learning models. See Feature engineering and serving.
+
+flow
+
+A flow is an edge in a DLT pipeline that reads data, transforms it, and writes it to a destination.
+
+foundation models
+
+Large ML models pre-trained with the intention that they are to be fine-tuned for more specific language understanding and generation tasks. See Databricks Foundation Model APIs.
+
+G
+generative AI
+
+A type of artificial intelligence focused on the ability of computers to use models to create content like images, text, code, and synthetic data. Generative AI applications are built on top of generative AI models: large language models (LLMs) and foundation models. See AI and machine learning on Databricks.
+
+J
+job
+
+The primary unit for scheduling and orchestrating production workloads on Azure Databricks. Azure Databricks Jobs consist of one or more tasks. See Overview of orchestration on Databricks.
+
+L
+Lakeflow Connect
+
+Offers built-in connectors for ingestion from enterprise applications and databases. The resulting ingestion pipeline is governed by Unity Catalog and is powered by serverless compute and Delta Live Tables. See Lakeflow Connect.
+
+Lakehouse Federation
+
+The query federation platform for Azure Databricks. The term query federation describes a collection of features that enable users and systems to run queries against multiple data sources without needing to migrate all data to a unified system. Azure Databricks uses Unity Catalog to manage query federation. See What is Lakehouse Federation?.
+
+Lakehouse Monitoring
+
+Monitors the statistical properties and quality of the data in all of the tables in your account. You can also use it to track the performance of machine learning models and model-serving endpoints by monitoring inference tables that contain model inputs and predictions. See Introduction to Databricks Lakehouse Monitoring.
+
+large language model (LLM)
+
+A natural language processing (NLP) model designed for tasks such as answering open-ended questions, chat, content summarization, execution of near-arbitrary instructions, translation, and content and code generation. LLMs are trained from massive data sets using advanced machine learning algorithms to learn the patterns and structures of human language. See Large language models (LLMs) on Databricks.
+
+library
+
+A package of code available to the notebook or job running on your cluster. Databricks runtimes include many libraries, and you can also upload your own. See Libraries.
+
+M
+materialized view
+
+A view that has been precomputed and stored so that it can be queried with lower latency or repeatedly without redundant computation. See Use materialized views in Databricks SQL.
+
+medallion architecture
+
+A data design pattern that is used to logically organize data in a lakehouse, with the goal of incrementally and progressively improving the structure and quality of data as it flows through each layer of the architecture (from Bronze ⇒ Silver ⇒ Gold layer tables). What is the medallion lakehouse architecture?.
+
+metastore
+
+The component that stores all of the structure information of the various tables and partitions in the data warehouse, including column and column type information, the serializers and deserializers necessary to read and write data, and the corresponding files where the data is stored. See Metastores.
+
+MLflow
+
+An open-source platform for managing the end-to-end machine learning lifecycle, including experimentation, reproducibility, and deployment. MLflow on Azure Databricks is a fully managed service with additional functionality for enterprise customers, providing a scalable and secure managed deployment of MLflow. See MLflow for gen AI agent and ML model lifecycle.
+
+model training
+
+The process of training machine learning and deep learning models on Azure Databricks using many popular open-source libraries. See Train AI and ML models.
+
+Mosaic AI
+
+The feature that provides unified tooling to build, deploy, evaluate and govern AI and ML solutions — from building predictive ML models to the latest GenAI apps. See AI and machine learning on Databricks.
+
+Mosaic AI Model Serving
+
+The unified interface to deploy, govern, and query AI models for real-time and batch inference. See Deploy models using Mosaic AI Model Serving.
+
+Mosaic AI Model Training
+
+The feature allows you to use your data to customize a foundation model to optimize its performance for your specific application. By conducting full parameter fine-tuning or continuing training of a foundation model, you can train your own model using significantly less data, time, and compute resources than training a model from scratch. See Foundation Model Fine-tuning.
+
+Mosaic AI Vector Search
+
+A vector database that is built into the Databricks Data Intelligence Platform and integrated with its governance and productivity tools. See Mosaic AI Vector Search.
+
+N
+notebook
+
+An interactive web interface used by data scientists and engineers to write and execute code in multiple languages (for example, Python, Scala, SQL) in the same document. See Introduction to Databricks notebooks.
+
+O
+OAuth
+
+OAuth is an open standard for access delegation, commonly used as a way for internet users to grant websites or applications access to their information on other websites but without giving them the passwords. See Authorizing access to Azure Databricks resources.
+
+P
+Partner Connect
+
+A Databricks program that provides integrations maintained by independent software vendors to connect to most enterprise data systems. See What is Databricks Partner Connect?.
+
+personal access token (PAT)
+
+A string of characters that is used to authenticate a user when accessing a computer system instead of a password. See Authorizing access to Azure Databricks resources.
+
+Photon
+
+A high-performance Databricks-native vectorized query engine that runs your SQL workloads and DataFrame API calls faster to reduce your total cost per workload. Photon is compatible with Apache Spark APIs, so it works with your existing code. See What is Photon?.
+
+pipeline
+
+A DAG of tables, views, materialized views, flows, and sinks that are updated lazily in a dependency order that’s determined by the system.
+
+R
+retrieval-augmented generation (RAG)
+
+A technique that enables a large language model (LLM) to generate enriched responses by augmenting a user’s prompt with supporting data retrieved from an outside information source. By incorporating this retrieved information, RAG enables the LLM to generate more accurate, higher-quality responses compared to not augmenting the prompt with additional context. See Retrieval-augmented generation (RAG) fundamentals.
+
+S
+schema (Unity Catalog)
+
+The child of a catalog in Unity Catalog that can contain tables, views, volumes, models, and functions. A schema is the second level of Unity Catalog’s three-level namespace (catalog.schema.table-etc). See What is Unity Catalog?.
+
+serverless compute
+
+Compute managed by Azure Databricks, which reduces management overhead and provides instant compute to enhance user productivity. See Connect to serverless compute.
+
+service principal
+
+An identity created for use with automated tools, running jobs, and applications. You can restrict a service principal’s access to resources using permissions, in the same way as an Azure Databricks user. Unlike an Azure Databricks user, a service principal is an API-only identity; it can’t access the Azure Databricks UI or Databricks CLI directly. See Manage service principals.
+
+sink (pipelines)
+
+A sink is a destination for a flow that writes to an external system (for example, Kafka, Kinesis, Delta).
+
+SQL warehouse
+
+A compute resource that lets you query and explore data on Azure Databricks. See Connect to a SQL warehouse.
+
+stream processing
+
+A data processing method that allows you to define a query against an unbounded, continuously growing dataset and then process data in small, incremental batches. Azure Databricks stream processing uses Structured Streaming. See Streaming and incremental ingestion.
+
+streaming
+
+Streaming refers to any media content – live or recorded – (that is, a stream of data) delivered to computers and mobile devices via the internet and played back in real time. See Structured Streaming concepts.
+
+streaming analytics
+
+The process of analyzing data that’s continuously generated by different sources. Azure Databricks supports streaming analytics through Structured Streaming, allowing for the processing and analysis of live data for real-time insights.
+
+Structured Streaming
+
+A scalable and fault-tolerant stream processing engine built on the Spark SQL engine, enabling complex computations as streaming queries. See Structured Streaming concepts.
+
+streaming tables
+
+A managed table that has a stream writing to it.
+
+T
+table
+
+A table resides in a schema and contains rows of data. All tables created in Databricks use Delta Lake by default. Tables backed by Delta Lake are also called Delta tables. See What are tables and views?.
+
+triggered pipeline
+
+A pipeline that ingests all data that was available at the start of the update for each table, running in dependency order and then terminating. See Triggered vs. continuous pipeline mode.
+
+U
+Unity Catalog
+
+An Azure Databricks feature that provides centralized access control, auditing, lineage, and data discovery capabilities across Azure Databricks workspaces. See What is Unity Catalog?.
+
+V
+vector database
+
+A database that is optimized to store and retrieve embeddings. Embeddings are mathematical representations of the semantic content of data, typically text or image data. See Mosaic AI Vector Search.
+
+view
+
+A virtual table defined by a SQL query. It does not itself store data but provides a way to present data from one or more tables, in a specific format or abstraction. See What is a view?.
+
+volumes (Unity Catalog)
+
+Unity Catalog objects that enable governance over non-tabular datasets. Volumes represent a logical volume of storage in a cloud object storage location. Volumes provide capabilities for accessing, storing, governing, and organizing files. See What are Unity Catalog volumes?.
+
+W
+Workflows
+
+The set of tools that allow you to schedule and orchestrate data processing tasks on Azure Databricks. You use Azure Databricks Workflows to configure Azure Databricks Jobs. See Overview of orchestration on Databricks.
+
+workload
+
+The amount of processing capability needed to perform a task or group of tasks. Azure Databricks identifies two types of workloads: data engineering (job) and data analytics (all-purpose). See Azure Databricks concepts.
+
+workspace
+
+An organizational environment that allows Databricks users to develop, browse, and share objects such as notebooks, experiments, queries, and dashboards. See Navigate the workspace.
